@@ -1,5 +1,5 @@
 .wrapper {
-  background-image: url("./assets/images/Background.png");
+  background-image: url("./assets/images/phoneBackground.png");
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -36,7 +36,7 @@ h1 {
   height: 30px;
   width: 100px;
   background-color: white;
-  margin: 10px 20px 20px 20px;
+  margin: 10px 20px 10px 20px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -46,14 +46,53 @@ h1 {
   height: 30px;
   width: 100px;
   background-color: white;
-  margin: 10px 20px 20px 20px;
+  margin: 10px 20px 10px 20px;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.bottomwrapper {
+  display: flex;
+}
+.digits {
+  float: left;
+  height: 175px;
+  width: 65%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+.digits div {
+  margin: 2px 2px 2px 2px;
+  height: 45px;
+  width: 45px;
+  background-color: white;
+}
+.operators {
+  height: 167px;
+  width: 35%;
+  float: right;
+  display: flex;
+  flex-direction: column;
+}
+.operators div {
+  height: 45px;
+  width: 55px;
+  background-color: white;
+  margin: 2px 20px 2px 4px;
+}
 
 @media screen and (min-width: 600px) {
+  .wrapper {
+    background-image: url("./assets/images/Background.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   h1 {
     font-size: 40px;
     margin-top: 5%;
