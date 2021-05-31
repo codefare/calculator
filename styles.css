@@ -29,29 +29,40 @@ h1 {
   margin: 20px 20px 0px 20px;
   position: relative;
 }
+.screen:hover {
+  filter: drop-shadow(2px 2px 2px black);
+}
 .buttoncontainer {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .clear {
   height: 30px;
-  width: 100px;
+  width: 50%;
   background-color: white;
-  margin: 10px 20px 10px 20px;
+  margin: 10px 5px 10px 20px;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
+}
+.clear:hover {
+  filter: drop-shadow(2px 2px 2px black);
 }
 .delete {
   height: 30px;
-  width: 100px;
+  width: 50%;
   background-color: white;
-  margin: 10px 20px 10px 20px;
+  margin: 10px 20px 10px 5px;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
+}
+.delete:hover {
+  filter: drop-shadow(2px 2px 2px black);
 }
 .bottomwrapper {
   display: flex;
@@ -70,9 +81,16 @@ h1 {
   height: 45px;
   width: 45px;
   background-color: white;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.digits div:hover {
+  filter: drop-shadow(2px 2px 2px black);
 }
 .operators {
-  height: 167px;
+  height: 165px;
   width: 35%;
   float: right;
   display: flex;
@@ -83,6 +101,44 @@ h1 {
   width: 55px;
   background-color: white;
   margin: 2px 20px 2px 4px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.operators div:hover {
+  filter: drop-shadow(2px 2px 2px black);
+}
+.equalswrapper {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.zero {
+  width: 71%;
+  height: 45px;
+  border-radius: 20px;
+  background-color: white;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zero:hover {
+  filter: drop-shadow(2px 2px 2px black);
+}
+.equals {
+  width: 29%;
+  height: 45px;
+  border-radius: 20px;
+  background-color: white;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.equals:hover {
+  filter: drop-shadow(2px 2px 2px black);
 }
 
 @media screen and (min-width: 600px) {
