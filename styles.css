@@ -144,22 +144,23 @@ h1 {
 @media screen and (min-width: 600px) {
   .wrapper {
     background-image: url("./assets/images/Background.png");
+    height: 1200px;
     background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
   }
   h1 {
     font-size: 40px;
-    margin-top: 5%;
+    margin-top: 50px;
   }
   .container {
-    height: 600px;
+    height: 500px;
     width: 400px;
     background-color: grey;
     border-radius: 20px;
-    margin: 2% 10% 20% 10%;
+    margin: 1% 1% 5% 1%;
   }
   .screen {
     height: 50px;
@@ -168,12 +169,25 @@ h1 {
     margin: 20px 20px 10px 20px;
     position: relative;
   }
+  .digits div {
+    height: 60px;
+    width: 60px;
+    margin: 10px 10px 10px 10px;
+  }
+  .operators {
+    height: 233px;
+  }
+  .operators div {
+    height: 80px;
+    width: 100px;
+    margin: 5px 20px 5px 20px;
+  }
   .clear {
     font-size: 20px;
     height: 50px;
-    width: 200px;
+    width: 50%;
     background-color: white;
-    margin: 10px 20px 20px 20px;
+    margin: 10px 5px 20px 20px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -182,12 +196,16 @@ h1 {
   .delete {
     font-size: 20px;
     height: 50px;
-    width: 200px;
+    width: 50%;
     background-color: white;
-    margin: 10px 20px 20px 20px;
+    margin: 10px 20px 20px 5px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .equalswrapper {
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
 }
