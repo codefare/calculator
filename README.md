@@ -1,3 +1,5 @@
+url: https://codefarescalculator.netlify.app
+
 psuedo code
 create three arrays: first input, operator, secone input
 create if statement: if operator array is empty then
